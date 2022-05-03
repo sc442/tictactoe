@@ -1,9 +1,6 @@
 html {
     box-sizing: border-box;
 }
-
-body {
-}
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: aquamarine;
@@ -11,10 +8,10 @@ h1 {
 }
 
 #board {
-    margin: auto;
     display: grid;
-    height: 50px;
-    width: 50px;
+    margin: auto;
+    height: 156px;
+    width: 156px;
     grid-template-columns: auto auto auto;
 }
 
