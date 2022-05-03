@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#board {
+    margin: auto;
+    display: grid;
+    height: 50px;
+    width: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.square {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-content: center;
+}
